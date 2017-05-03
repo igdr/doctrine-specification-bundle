@@ -1,0 +1,6 @@
+services:
+   igdr_doctrine_specification.param_converter:
+       class: Igdr\DoctrineSpecificationBundle\ParamConverter\SpecificationParamConverter
+       arguments: ["@doctrine"]
+       tags:
+           - { name: request.param_converter, priority: 10 }

@@ -1,0 +1,23 @@
+{
+    "name": "igdr/doctrine-specification-bundle",
+    "type": "symfony-bundle",
+    "description": "Integrate Doctrine Specification into Symfony 3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Drozd",
+            "email": "drozd.igor@gmail.com"
+        }
+    ],
+    "require": {
+        "igdr/doctrine-specification": "~0.9",
+        "symfony/symfony": "~3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Igdr\\DoctrineSpecificationBundle\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
