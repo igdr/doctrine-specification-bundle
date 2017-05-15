@@ -2,9 +2,9 @@
 
 namespace Igdr\DoctrineSpecificationBundle\ParamConverter;
 
-use App\Bundle\BaseBundle\Specification\BaseSpecInterface;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ORM\NoResultException;
+use Igdr\DoctrineSpecificationBundle\Specification\BaseSpecInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterInterface;
 use Symfony\Component\HttpFoundation\Request;
